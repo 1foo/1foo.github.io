@@ -23,14 +23,14 @@ import type {AnalyticsConfig} from "./types/analyticsTypes"
  *    All tags will be displayed in single page "/tags".
  */
 export const site = {
-  title: 'Astro Theme Yi', // required
+  title: 'Rynn Foo 的个人博客', // required
   favicon: '/favicon.svg', // required
-  description: 'Welcome to my independent blog website! ',
-  author: "Astro-Yi", // required
-  avatar: '/avatar.png', // required
-  url: 'https://astro-yi-nu.vercel.app', // required
-  baseUrl: '', // When using GitHubPages, you must enter the repository name startWith '/'. e.g. '/astro-blog'
-  motto: 'Actions speak louder than words.',
+  description: '欢迎来到我的博客站点！',
+  author: "Rynn Foo", // required
+  avatar: '	https://avatars.githubusercontent.com/u/30855670?v=4', // required
+  url: 'https://blog.ifoo.ink', // required
+  baseUrl: '/1foo.github.io', // When using GitHubPages, you must enter the repository name startWith '/'. e.g. '/astro-blog'
+  motto: '点击输入文本 :D',
   recentBlogSize: 5,
   archivePageSize: 25,
   postPageSize: 10,
@@ -49,7 +49,7 @@ export const site = {
  * memosPageSize {number} 10
  */
 export const config = {
-  lang: 'en', // en | zh-cn | zh-Hant | cs
+  lang: 'zh-cn', // en | zh-cn | zh-Hant | cs
   codeFoldingStartLines: 16, // Need to re-run the project to take effect
 
   // memos config
@@ -67,12 +67,12 @@ export const config = {
  */
 export const categories = [
   {
-    name: "Blog",
+    name: "博客",
     iconClass: "ri-draft-line",
     href: "/blog/1",
   },
   {
-    name: "Feed",
+    name: "动态",
     iconClass: "ri-lightbulb-flash-line",
     href: "/feed/1",
   },
@@ -82,32 +82,32 @@ export const categories = [
   //   href: "/memos",
   // },
   {
-    name: "Archive",
+    name: "归档",
     iconClass: "ri-archive-line",
     href: "/archive/1",
   },
   {
-    name: "Message",
+    name: "消息",
     iconClass: "ri-chat-1-line",
     href: "/message",
   },
   {
-    name: "Search",
+    name: "搜索",
     iconClass: "ri-search-line",
     href: "/search",
   },
   {
-    name: "More",
+    name: "更多",
     iconClass: "ri-more-fill",
     href: "javascript:void(0);",
     children: [
       {
-        name: 'About',
+        name: '关于',
         iconClass: 'ri-information-line',
         href: '/about',
       },
       {
-        name: 'Friends',
+        name: '好友',
         iconClass: 'ri-user-5-line',
         href: '/friends',
         target: '_self',
@@ -120,31 +120,36 @@ export const categories = [
  * Personal link address
  */
 export const infoLinks = [
-  {
-    icon: 'ri-telegram-fill',
-    name: 'telegram',
-    outlink: '',
-  },
-  {
-    icon: 'ri-twitter-fill',
-    name: 'twitter',
-    outlink: '',
-  },
-  {
-    icon: 'ri-instagram-fill',
-    name: 'instagram',
-    outlink: '',
-  },
+  // {
+  //   icon: 'ri-telegram-fill',
+  //   name: 'telegram',
+  //   outlink: '',
+  // },
+  // {
+  //   icon: 'ri-twitter-fill',
+  //   name: 'twitter',
+  //   outlink: '',
+  // },
+  // {
+  //   icon: 'ri-instagram-fill',
+  //   name: 'instagram',
+  //   outlink: '',
+  // },
   {
     icon: 'ri-github-fill',
     name: 'github',
-    outlink: 'https://github.com/cirry/astro-yi',
+    outlink: 'https://github.com/1foo',
   },
   {
-    icon: 'ri-rss-fill',
-    name: 'rss',
-    outlink: '',
+    icon: 'ri-bilibili-fill',
+    name: 'bilibili',
+    outlink: 'https://space.bilibili.com/50366483',
   }
+  // {
+  //   icon: 'ri-rss-fill',
+  //   name: 'rss',
+  //   outlink: '',
+  // }
 ]
 
 /**
@@ -172,12 +177,12 @@ export const donate = {
  */
 export const friendshipLinks =
   [
-    // {
-    //   name: "Cirry's Blog",
-    //   url: 'https://cirry.cn',
-    //   avatar: "https://cirry.cn/avatar.png",
-    //   description: '前端开发的日常'
-    // },
+    {
+      name: "CosmoLau 的个人博客",
+      url: 'https://blog.cosmolau.top',
+      avatar: "https://avatars.githubusercontent.com/u/31976508?v=4",
+      description: '啥都想学，啥也不会'
+    },
   ]
 
 /**
