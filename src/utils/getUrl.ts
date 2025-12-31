@@ -6,5 +6,9 @@ export default function getUrl(path: string) {
         return path
     }
 
+    if (path.startsWith('http')) {
+        return path
+    }
+
     return isProd  ? (site.baseUrl + path) : path
 }
