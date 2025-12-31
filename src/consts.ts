@@ -23,11 +23,11 @@ import type {AnalyticsConfig} from "./types/analyticsTypes"
  *    All tags will be displayed in single page "/tags".
  */
 export const site = {
-  title: 'Rynn Foo 的个人博客', // required
+  title: 'Ryan Foo 的个人博客', // required
   favicon: '/favicon.svg', // required
   description: '欢迎来到我的博客站点！',
-  author: "Rynn Foo", // required
-  avatar: '	https://avatars.githubusercontent.com/u/30855670?v=4', // required
+  author: "Ryan Foo", // required
+  avatar: 'https://avatars.githubusercontent.com/u/30855670?v=4', // required
   url: 'https://blog.ifoo.ink', // required
   baseUrl: '/1foo.github.io', // When using GitHubPages, you must enter the repository name startWith '/'. e.g. '/astro-blog'
   motto: '点击输入文本 :D',
