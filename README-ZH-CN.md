@@ -1,6 +1,6 @@
 # Astro Theme YI
 
-[[English]](./README.md) | [[简体中文]](./README-ZH-CN.md)
+[[English]](./README-EN.md) | [[简体中文]](./README-ZH-CN.md)
 
 预览地址：[Astro-Theme-Yi](https://astro-yi-nu.vercel.app/)
 
