@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Ryan Foo 的个人博客",
+	title: "1foo 的个人博客",
 	subtitle: "分享技术、生活和思考",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
@@ -54,7 +54,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "https://avatars.githubusercontent.com/u/30855670?v=4", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Ryan Foo",
+	name: "1foo",
 	bio: "分享技术、生活和思考",
 	links: [
 		// {
@@ -78,7 +78,7 @@ export const profileConfig: ProfileConfig = {
 			name: "Bilibili",
 			icon: "fa6-brands:bilibili",
 			url: "https://space.bilibili.com/50366483",
-		}
+		},
 	],
 };
 
